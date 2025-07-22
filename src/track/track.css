@@ -1,0 +1,64 @@
+.pho{
+    height:170px;
+    
+}
+.pho-co{
+    height:120px;
+}
+.bottom{
+    margin:90px 100px 30px 100px !important;
+    padding-top: 50px;
+}
+.box{
+    height:30px;
+    width:100%;
+    border-color: rgb(25, 54, 129);
+    border-style: solid ;
+    border-radius: 50px;
+}
+.box-header{
+    background-color: green;
+    width:50%;
+    height: 100%;
+    border-radius: 50px;
+}
+.track{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
+    margin-top:25px;
+}
+.t-text1{
+    text-align: center;
+}
+.t-text2{
+    text-align: end;
+}
+.view{
+    cursor: pointer;
+    transition:color;
+}
+.view:hover{
+    color: rgb(14, 150, 105);
+}
+/* track.css */
+.ordered {
+    width: 10%;
+    background-color: green;
+     height: 100%;
+    border-radius: 50px;
+}
+
+.shipped {
+    width: 50%;
+    background-color: green;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.delivered {
+    width: 100%;
+    background-color: green;
+    height: 100%;
+    border-radius: 50px;
+}

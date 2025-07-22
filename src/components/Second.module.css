@@ -1,0 +1,41 @@
+
+p{
+     margin:0px 0px 0px 0px;
+}
+.header2{
+    margin-top:35px;
+    background-color: rgba(53, 55, 82, 0.862) ;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 0px;
+    height:36px;
+    font-size: 16px;
+    width: 100vw;
+    
+
+}
+
+
+
+.under{
+    cursor: pointer;
+}
+.under:hover{
+    text-decoration: underline;
+}
+
+.all{
+    cursor: pointer;
+    margin:0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    color:white;
+    align-items: center;
+}
+.all:hover{
+    border: 1px solid;
+    height:25px;
+    padding:0px 5px 0px 5px;
+}

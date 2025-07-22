@@ -1,0 +1,34 @@
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 25px;
+    background-color: rgb(37, 77, 151);
+    padding:70px 20px 0px 20px;
+}
+@media only screen
+and (min-width:1020px)
+and (max-width:1440px)
+{
+    
+    .bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 25px;
+    background-color: rgb(37, 77, 151);
+    padding:70px 20px 0px 20px;
+}
+
+}
+@media (min-width:1120px)
+{
+    .bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 25px;
+    background-color: rgb(37, 77, 151);
+    padding:70px 20px 0px 20px;
+}
+}

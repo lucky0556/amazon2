@@ -1,0 +1,8 @@
+.bottom{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:30px 50px 50px 50px;
+    background-color: rgb(29, 35, 78);
+    margin:0px 0px 0px 0px;
+    color:white;
+}

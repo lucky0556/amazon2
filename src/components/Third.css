@@ -1,0 +1,162 @@
+
+
+
+.slick-prev,
+.slick-next {
+  z-index: 2;
+  padding: 50px !important;
+  top:30% !important;
+
+}
+.ass{
+    width: 100%;
+    
+}
+.slick-slider {
+  overflow: hidden;
+}
+
+.slick-arrow {
+  z-index: 1000 !important;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: rgb(146, 119, 119) !important; 
+  font-size: 40px !important;
+  
+}
+
+.block2 .slick-prev{
+    left:-50px !important;
+}
+.ass .slick-prev {
+  left: -50px !important;
+}
+.block2 .slick-next{
+    right:-10px;
+}
+.ass .slick-next {
+  right: -10px !important;
+}
+
+
+.ass{
+    
+    padding-bottom: 40px;
+    height:750px;
+    
+}
+.every{
+    
+    top:280px;
+    position: absolute;
+}
+.block1{
+    height:450px;
+    background-color: white;
+    
+}
+.heading{
+    font-size: 23px;
+    font-weight:bold;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: black;
+}
+.photo{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 50px;
+    padding:30px 15px 15px 15px;
+    margin-bottom: 30px;
+}
+.photo1{
+    height:100px
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.sen,.sen1{
+    font-size: 14px;
+    margin-top: 0px;
+    color: black;
+    
+}
+
+.sen1{
+    padding-left: 15px;
+    padding-top: 0px;
+}
+.display1{
+    height:250px;
+    margin-top: 30px;
+    background-color: rgb(250, 248, 248);
+    width:100%;
+   margin:30px 20px 0px 20px !important;
+    padding:0px 0px 0px 20px;
+    
+}
+@media only screen
+and (min-width:1020px)
+and (max-width:1440px)
+{
+    
+   .divide{
+    width: 1040px;
+   } 
+
+}
+@media (min-width:1120px)
+{
+    .divide{
+    width: 1100px;
+   } 
+}
+
+.main{
+    overflow-x: hidden !important;
+}
+.block3{
+    display: flex;
+    flex-direction: row;
+}
+.sen2{
+    padding: 20px 0px 0px 30px;
+    color: black;
+}
+.phot{
+    width:100%;
+    
+}
+.ass{
+    padding:0px 0px 0px 0px;
+}
+.don{
+    position: relative; 
+}
+.img3{
+    
+    height:150px;
+    width:60%;
+    
+}
+.block2{
+    
+    background-color:white;
+    row-gap: 5px;
+    padding:15px 0px 0px 0px;
+    margin-right:0px;  
+}
+.division{
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+}
+.main{
+    background-color: antiquewhite;
+    padding-bottom: 40px;
+    width: 100% !important;
+    
+}
